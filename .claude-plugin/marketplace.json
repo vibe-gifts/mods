@@ -1,0 +1,22 @@
+{
+  "name": "vibe-gifts",
+  "owner": { "name": "Vibe Gifts" },
+  "description": "Mods do Claude Code feitos pela Vibe Gifts.",
+  "plugins": [
+    {
+      "name": "hajime",
+      "source": { "source": "github", "repo": "vibe-gifts/hajime" },
+      "description": "Um botão de play para os projetos que rodam em localhost no seu computador."
+    },
+    {
+      "name": "wtf",
+      "source": { "source": "github", "repo": "vibe-gifts/wtf" },
+      "description": "Painel que mostra, sem código e em português claro, o que a IA está construindo no seu projeto."
+    },
+    {
+      "name": "fila-render",
+      "source": { "source": "github", "repo": "vibe-gifts/fila-render" },
+      "description": "Uma fila única para os renders de vídeo no Mac, com prioridade e ordem no painel."
+    }
+  ]
+}
